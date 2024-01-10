@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="currentStyleSheet" rel="stylesheet" type="text/css" href="style-one.css">
+    <title>Krish Chhabra :: Portfolio</title>
+</head>
+
+<body>
+    <script src="style-control.js"></script>
+
+    <header id="portfolio-header">
+        <div id="header-title">
+            <h1>Krish Chhabra</h1>
+            <p>Something Really Cool and Witty About Myself</p>
+        </div>
+
+        <div id="header-links">
+            <a href="https://linkedin.com/in/krish-chhabra"><img src="Images/linkedin-logo.png" alt="My LinkedIn"></a>
+            <a href="https://github.com/kachhabra02"><img src="Images/github-logo.png" alt="My GitHub"></a>
+            <a href="mailto:kachhabra02@tamu.edu"><img src="Images/email-logo.png" alt="Email me"></a>
+            <a id="style-buttonID"><button onclick="toggleStyleSheet()" id="style-button">Toggle Style</button></a>
+        </div> 
+
+    </header>
+
+    <div class="nav-background">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a href="qualifications.html" class="button">Qualifications</a></li>
+                <li><a href="service.html" class="button">Service</a></li>
+                <li><a href="about.html" class="button">About Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="white-background">
+        <br><br><br><br>
+        <div>
+            <img class="presentation" src="Images/pathways-presentation.jpg" alt="Me presenting research poster at 17th Pathways Symposium">
+        </div>
+
+        <div id="presentation-text" class="presentation">
+            <h2>FLASH Research</h2>
+
+            <p>
+                During my freshman year in both the Fall 2021 and Spring 2022, I participated in the Aggie Research Program as a member of the <a href="https://vadosezone.tamu.edu/flash/">FLASH team</a> of the Vadose Zone Research Group of the Department of 
+                Biological and Agricultural Engineering. Under Dr. Binayak Mohanty and PhD candidate Vinit Sehgal, I worked in a team of other undergraduate researchers to analyze risk for flash droughts in various regions of the country and world.
+            </p>
+
+            <p>
+                For the Fall 2021 semester, the analysis we performed culminated in a “Twitter Takeover” in which the maps we produced were dispersed on the FLASH twitter account in order to form various governmental agencies on drought conditions and risks in their area. 
+                For the Spring 2022 semester, I led my own research project in which I examined the feasibility of forecasting streamflow with previous days of streamflow, precipitation levels, and soil moisture data. 
+                This project culminated in a proof-of-concept poster presentation at the 17th Texas A&M University System Pathways Student Research Symposium.
+            </p>
+
+            <p>All of the results of my time with the FLASH team can be found on <a href="https://github.com/kachhabra02/Fall-21-Spring-22-Research">this GitHub repository</a>.</p>
+        </div>
+        <br>
+
+        <div class="ticket-block">
+            <br>
+            <h2 class="ticket-title">Ticket to Ride</h2>
+            
+            <p class="boardgame-p">
+                In high school, part of my data structures class was a semester-long project in which we worked in teams to develop a digital version of the board game Ticket to Ride. 
+                The project was completed in Java and used the Swing GUI library. From a technical standpoint, the board game required an understanding of object-oriented programming and basic graph algorithms.
+                
+                <br><br>
+                
+                This project was my initial exploration into the world of software development as a team and was overall a positive experience. I was able to step into a project management role and greatly enjoyed the experience.
+            </p>
+            <br><br><br><br>
+    
+            <img class="boardgame"src="Images/ticket-to-ride.jpg" alt="Board game layout of Ticket to Ride">
+        </div>
+        <br>
+
+        <div class="receipt-block">
+            <img class="receipt" src="Images/receipt-scanner.jpg" alt="Example of receipt scanning application">
+
+            <h2 class="receipt-title">Receipt Scanner/Reader and Manager</h2>
+
+            <p class="receipt-p">
+                I have not started working on this project, but I have been thinking about it for quite some time.
+
+                <br><br>
+
+                The application I envision is a one-stop-shop for receipt viewing and management. The idea for the project spawned from the experiences of my parents, who have had a hard time reading receipts as they have gotten older. 
+                To address this issue, the application would have the ability to scan the receipt and provide an easily readable version to look at. Additional functionality could include recommending tip amounts. This application would require the 
+                use of <a href="https://www.ibm.com/blog/optical-character-recognition/">Optical Character Recognition</a> to scan the receipt and extract textual information.
+                
+                <br><br>
+                
+                Beyond helping at the time of transaction, this application could be expanded to include a financial advising service. 
+                This service would look at trends in spending and provide budgeting analysis and advice to the user based on scanned and saved receipts or user inputted transactions.
+            </p>
+            <br>
+        </div>
+    </div>
+</body>
+</html>

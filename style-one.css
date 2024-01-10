@@ -1,0 +1,421 @@
+/* General Body Styling */
+
+body {
+    margin: 0;
+
+    background-color: black;
+}
+
+div.white-background {
+    
+    margin-top: -74px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    background-color: #dfd9d9;
+}
+
+p {
+    color: #203b26;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    color: #2d4f34;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #54426B;
+}
+
+h3 {
+    color: maroon;
+}
+
+/* End General Body Styling */
+
+
+/* Header Styling */
+header {
+    position: sticky;
+    left: 30px;
+    top: 0;
+
+    height: 125px;
+    width: 1460px;
+
+    padding: 0;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    background-color: #4EA574;
+}
+
+#header-title {
+    display: inline-block;
+
+    width: 1000px;
+    
+    padding: 0;
+    border: 0;
+    margin-left: 220px;
+    
+    text-align: center;
+}
+
+#header-title h1 {
+    margin-bottom: 0;
+    margin-top: 15px;
+
+    font-size: 50px;
+}
+
+#header-title p {
+    margin-top: -2px;
+
+    font-size: 20px;
+}
+
+#header-links {
+    width: 300px;
+
+    margin-left: 1050px;
+    margin-top: -70px;
+    
+    list-style-type: none;
+}
+
+#header-links img {
+    position: relative;
+    top: -10px;
+    
+    width: 50px;
+}
+
+#style-button {
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+
+    height: 45px;
+
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+/* End Header Styling */
+
+
+/* Navigation Bar Styling */
+
+nav ul {
+    display: inline-block;
+    position: sticky;
+    
+    margin: 0;
+    padding: 0;
+    
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    position: sticky;
+    
+    
+    width: 150px;
+    
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 10px;
+
+    background-color: #add1ad;
+    
+    list-style-type: none;
+    text-align: center;
+}
+
+li a {
+    position: sticky; 
+
+    line-height: 50px;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #54426B;
+    color: #add1ad;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);   
+}
+
+div.nav-background {
+    background-color: #203b26;
+    height:70px;
+    width: 1460px;
+    margin-left: 30px;
+    
+    position: fixed;
+}
+
+button {
+    cursor: pointer;
+
+    width: 100px;
+
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+    background-color: #eee;
+    color: #54426B;
+    
+    font-size: 1rem;
+    
+    box-shadow: 0 0.4rem #dfd9d9;
+}
+   
+button:active {
+    color: white;
+
+    box-shadow: 0 0.2rem #dfd9d9;
+
+    transform: translateY(0.2rem);
+}
+
+button:hover:not(:disabled) {
+    background: #54426B;
+    color: white;
+
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+
+button:disabled {
+    cursor: auto;
+
+    color: grey;
+}
+
+/* End Navigation Bar Styling */
+
+
+/* Home Page Styling */
+
+img.boat-family-pic {
+    display: block;
+
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.welcome {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* End Home Page Styling */
+
+
+/* Portfolio Page Styling */
+
+img.presentation {
+    display: block;
+
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+h2.ticket-title {
+    margin-right: 200px;
+    margin-top: 40px;
+
+    text-align: right;
+    font-size: 50px;
+}
+
+div.ticket-block {
+    height: 450px;
+    
+    background-color: #b8d2b8;
+}
+
+img.boardgame {
+    display: block;
+
+    width: 600px;
+    
+    margin-left: 90px;
+    margin-top: -450px;
+}
+
+p.boardgame-p {  
+    width: 600px;
+    
+    margin-left: 820px;
+
+    background-color: #b8d2b8;
+    
+    text-align: center;
+}
+
+img.receipt {
+    display: block;
+    float: right;
+
+    width: 600px;
+    
+    margin-right: 50px;
+}
+
+h2.receipt-title {
+    width: 700px;
+
+    text-align: center;
+    font-size: 40px;
+}
+
+p.receipt-p {
+    width: 700px;
+
+    text-align: center;
+}
+
+/* End Portfolio Page Styling */
+
+
+/* Qualifications Page Styling */
+
+div.resume {
+    float: right;
+    
+    margin-top: -480px;
+    margin-right: 100px;
+}
+
+h3.tech-skills {
+    margin-left: 300px;
+
+    font-size: 25px;
+}
+
+ul.tech-bullets {
+    margin-left: 70px;
+
+    font-size: 20px;
+}
+
+h3.soft-skills {
+    margin-left: 300px;
+
+    font-size: 25px;    
+}
+
+ul.soft-bullets{
+    margin-left: 70px;
+
+    font-size: 20px;
+}
+
+h2.areas-interest {
+    text-align: center;
+    font-size: 25px;
+    color: #54426B;
+}
+
+p.area-interest-p {
+    margin-right: 850px;
+    margin-left: 30px;
+    
+    text-align: center;
+    font-size: 20px;
+}
+
+/* End Qualifications Page Styling */
+
+
+/* Service Page Styling */
+
+h2.food-bank-title {
+    color: #203b26;
+    float: center;
+    width: 700px;
+    margin-left: 70px;
+}
+
+div.food-bank-text-block {
+    width: 300px;
+    float: center;
+}
+
+p.food-bank-para {
+    width: 700px;
+    margin-left: 50px;
+}
+
+img.food-bank-pic {
+    width: 600px;
+    display: block;
+    float: right;
+    margin-right: 50px;
+    margin-top: -300px;
+}
+
+img.nature-pic {
+    width: 600px;
+    display: block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+div.nature-block {
+    background-color: #b8d2b8;
+    height: 500px;
+}
+
+div.nature-text {
+    width: 400px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 70px;
+    position: center;
+}
+h2.nature-title{
+    margin-top: 120px;
+    margin-left: -200px;
+}
+p.nature-p{
+    width:700px;
+    margin-left: -270px;
+    margin-top: 60px;
+}
+
+
+div.teach-text {
+    float: left;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+img.teach-pic {
+    width: 500px;
+    display: block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+/*End service page */
